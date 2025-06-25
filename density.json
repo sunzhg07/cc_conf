@@ -1,0 +1,1617 @@
+{
+    "configuration"   :
+    {
+        # Each calculation has
+        "calculation" : [
+            {
+                "interaction"               : ["nnlo_delta394"],
+                #	    "interaction"               : ["nnlo_delta394_100_of_500_sample0","nnlo_delta394_100_of_500_sample1","nnlo_delta394_100_of_500_sample2","nnlo_delta394_100_of_500_sample3","nnlo_delta394_100_of_500_sample4","nnlo_delta394_100_of_500_sample5","nnlo_delta394_100_of_500_sample6","nnlo_delta394_100_of_500_sample7","nnlo_delta394_100_of_500_sample8","nnlo_delta394_100_of_500_sample9"],
+                #	    "interaction"               : ["nnloopt","inmed450"],
+                #             "interaction"                : ["inmed450"],
+                #            "interaction"                : ["lo_new","lo_new_rs"],
+                #            "interaction"               : ["lo450","lo450sep","lo450gs1","lo500","lo500sep","lo500gs1","lo550","lo550sep","lo550gs1"],
+                #            "interaction"               : ["EM1","EM3","EM4","n3loEM-petr2","n4loEM-petr2"],
+                #            "interaction"               : ["lo450_jerry50","lo450_jerry75","lo450_jerry150"],
+                "modelspace"                : ["Medium"],
+                "com_correction"            : true,
+                "hartree_fock"              : true,
+                "natural_orbitals"          : false,
+                "lambda_triples"            : false,
+                "hf_format" 		: "original",
+                "density_matrix"            : false,
+                "run"                       : [
+                    {
+                        "core"              : "Al22",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 9,
+                        "neutron_holes_jscheme" : 4,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 1,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [22],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al23",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 10,
+                        "neutron_holes_jscheme" : 4,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 2,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [23],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al24",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 11,
+                        "neutron_holes_jscheme" : 4,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 3,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [24],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al25",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 12,
+                        "neutron_holes_jscheme" : 4,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 4,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [25],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al26",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 13,
+                        "neutron_holes_jscheme" : 4,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 5,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [26],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al27",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 14,
+                        "neutron_holes_jscheme" : 4,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 6,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [27],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al28",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 15,
+                        "neutron_holes_jscheme" : 5,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 1,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [28],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al29",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 16,
+                        "neutron_holes_jscheme" : 5,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 2,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [29],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al30",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 17,
+                        "neutron_holes_jscheme" : 6,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 1,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [30],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al31",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 18,
+                        "neutron_holes_jscheme" : 6,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 2,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [31],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al32",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 19,
+                        "neutron_holes_jscheme" : 6,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 3,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [32],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al33",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 20,
+                        "neutron_holes_jscheme" : 6,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 4,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [33],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    },
+                    {
+                        "core"              : "Al34",
+                        "proton_holes"      : 13,
+                        "proton_holes_jscheme"  : 4,
+                        "neutron_holes"     : 21,
+                        "neutron_holes_jscheme" : 7,
+                        "fractional_filling" : "yes",
+                        "proton_holes_fermi"  : 5, 
+                        "neutron_holes_fermi" : 1,
+                        "prolate_filling"     : "yes",
+                        "mass_correction"   : [34],	
+                        "fracfill_file"     : "none",
+                        "obswap"    :   "obswap"
+                    }
+
+                ]
+            }
+        ],
+        "parameters" : {
+            "cc_approx"             : "ccsd",
+            "cc_iter"               : 200,
+            "cc_tolerance"          : 1e-6,
+            "precalc_cc_gs"         : "no",
+            "precalc_cc_left_gs"    : "no",
+            "cc_calculation"        : "groundstate",
+            "expectation_value"     : "none",
+            "symmetry_restoration"  : "no"
+        },
+        "interaction" : [
+            {
+                "label" : "nnloHOEFT",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo_hoeft"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_413",
+                    "cD" : [-1.48722634],
+                    "cE" : [-1.00797946],
+                    "c1" : -1.35428962585351,
+                    "c3" : -4.34110700516092,
+                    "c4" :  6.50362302602318
+                }
+            },
+            {
+                "label" : "nlo_delta",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnlo_400_delta"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "nnlo_NL394",
+                    "cD" : [0.0],
+                    "cE" : [0.0],
+                    "c1" :  0.0,
+                    "c3" : -2.972246,
+                    "c4" :  1.486123
+                }
+            },
+            {
+                "label" : "nnlo_delta450",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo450_delta"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_450",
+                    "cD" : [-0.45389158],
+                    "cE" : [-0.18637206],
+                    "c1" : -0.74,
+                    "c3" : -3.622246,
+                    "c4" :  2.446123
+                }
+            },
+            {
+                "label" : "nnlo_delta450_v1",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo450v1_delta"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_450",
+                    "cD" : [0.79],
+                    "cE" : [0.017],
+                    "c1" : -0.74,
+                    "c3" : -3.622246,
+                    "c4" :  2.446123
+                }
+            },
+            {
+                "label" : "nnlo_delta394",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [0.08137682],
+                    "cE" : [-0.00239415],
+                    "c1" : -0.74,
+                    "c3" : -3.622246,
+                    "c4" :  2.446123
+                }
+            },
+            {
+                "label" : "n3loEM",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vn3loEM"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "nnlo_NL394",
+                    "cD" : [1.271],
+                    "cE" : [-0.131],
+                    "c1" : -0.81,
+                    "c3" : -3.2,
+                    "c4" :  5.4
+                }
+            },
+            {
+                "label" : "srg20_3NFL400",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vn3loEM_srg20"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "petr2",
+                    "input_prefix" : "nnlo_L400",
+                    "cD" : [1],
+                    "cE" : [1],
+                    "c1" : -0.81,
+                    "c3" : -3.4,
+                    "c4" :  3.4
+                }
+            },
+            {
+                "label" : "EM1",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vn3loEM_srg20"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [1.271],
+                    "cE" : [-0.131],
+                    "c1" : -0.81,
+                    "c3" : -3.2,
+                    "c4" :  5.4
+                }
+            },
+            {
+                "label" : "EM3",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vn3loEM_srg18"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [1.264],
+                    "cE" : [-0.12],
+                    "c1" : -0.81,
+                    "c3" : -3.2,
+                    "c4" :  5.4
+                }
+            },
+            {
+                "label" : "EM4",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vn3loEM_srg22"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [1.214],
+                    "cE" : [-0.137],
+                    "c1" : -0.81,
+                    "c3" : -3.2,
+                    "c4" :  5.4
+                }
+            },
+            {
+                "label" : "EM5",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vn3loEM_srg28"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [1.278],
+                    "cE" : [-0.078],
+                    "c1" : -0.81,
+                    "c3" : -3.2,
+                    "c4" :  5.4
+                }
+            },
+            {
+                "label" : "EM2",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vn3loEM_srg20"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [-3.007],
+                    "cE" : [-0.686],
+                    "c1" : -0.76,
+                    "c3" : -4.78,
+                    "c4" :  3.96
+                }
+            },
+            {
+                "label" : "n3lo_srg19",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vn3loEM_srg19"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "nnlo_NL394",
+                    "cD" : [-3.007],
+                    "cE" : [-0.686],
+                    "c1" : -0.76,
+                    "c3" : -4.78,
+                    "c4" :  3.96
+                }
+            },
+            {
+                "label" : "EGM1",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vn3loEGM_srg20"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "nnlo_NL394",
+                    "cD" : [-4.828],
+                    "cE" : [-1.152],
+                    "c1" : -0.81,
+                    "c3" : -3.4,
+                    "c4" :  3.4
+                }
+            },
+            {
+                "label" : "nnloopt",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnloopt"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [1.271],
+                    "cE" : [-0.131],
+                    "c1" : -0.81,
+                    "c3" : -3.2,
+                    "c4" :  5.4
+                }
+            },
+            {
+                "label" : "lo_new",
+                "type"  : "lo_new",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vlo_new"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [1.271],
+                    "cE" : [-0.131],
+                    "c1" : -0.81,
+                    "c3" : -3.2,
+                    "c4" :  5.4
+                }
+            },
+            {
+                "label" : "lo_new_rs",
+                "type"  : "lo_new_rs",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vlo_rs_new"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [0.0],
+                    "cE" : [0.0],
+                    "c1" : -0.74,
+                    "c3" : -3.61,
+                    "c4" :  2.44
+                }
+            },
+            {
+                "label" : "lo450gs1",
+                "type"  : "lo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vlo450gs1"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5",
+                    "input_prefix" : "pionless_eft_HHE3max",
+                    "cD" : [0.00],
+                    "cE" : [-0.238514],
+                    "c1" :  0.0,
+                    "c3" :  0.0,
+                    "c4" :  0.0
+                }
+            },
+            {
+                "label" : "lo450",
+                "type"  : "lo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vlo450"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5",
+                    "input_prefix" : "pionless_eft_HHE3max",
+                    "cD" : [0.00],
+                    "cE" : [-0.238514],
+                    "c1" :  0.0,
+                    "c3" :  0.0,
+                    "c4" :  0.0
+                }
+            },
+            {
+                "label" : "lo500",
+                "type"  : "lo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vlo500"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5",
+                    "input_prefix" : "pionless_eft_HHE3max",
+                    "cD" : [0.00],
+                    "cE" : [-0.238514],
+                    "c1" :  0.0,
+                    "c3" :  0.0,
+                    "c4" :  0.0
+                }
+            },
+            {
+                "label" : "lo550",
+                "type"  : "lo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vlo550"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5",
+                    "input_prefix" : "pionless_eft_HHE3max",
+                    "cD" : [0.00],
+                    "cE" : [-0.238514],
+                    "c1" :  0.0,
+                    "c3" :  0.0,
+                    "c4" :  0.0
+                }
+            },
+            {
+                "label" : "lo450sep",
+                "type"  : "lo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vlo450sep"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5",
+                    "input_prefix" : "pionless_eft_HHE3max",
+                    "cD" : [0.00],
+                    "cE" : [-0.238514],
+                    "c1" :  0.0,
+                    "c3" :  0.0,
+                    "c4" :  0.0
+                }
+            },
+            {
+                "label" : "lo500sep",
+                "type"  : "lo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vlo500sep"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5",
+                    "input_prefix" : "pionless_eft_HHE3max",
+                    "cD" : [0.00],
+                    "cE" : [-0.238514],
+                    "c1" :  0.0,
+                    "c3" :  0.0,
+                    "c4" :  0.0
+                }
+            },
+            {
+                "label" : "lo550sep",
+                "type"  : "lo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vlo550sep"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5",
+                    "input_prefix" : "pionless_eft_HHE3max",
+                    "cD" : [0.00],
+                    "cE" : [-0.238514],
+                    "c1" :  0.0,
+                    "c3" :  0.0,
+                    "c4" :  0.0
+                }
+            },
+            {
+                "label" : "lo500gs1",
+                "type"  : "lo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vlo500gs1"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5",
+                    "input_prefix" : "pionless_eft_HHE3max",
+                    "cD" : [0.00],
+                    "cE" : [-0.238514],
+                    "c1" :  0.0,
+                    "c3" :  0.0,
+                    "c4" :  0.0
+                }
+            },
+            {
+                "label" : "lo550gs1",
+                "type"  : "lo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vlo550gs1"
+                },
+                "threebody" : {
+                    "include" : false,
+                    "topology" : "triangular",
+                    "format" : "hdf5",
+                    "input_prefix" : "pionless_eft_HHE3max",
+                    "cD" : [0.00],
+                    "cE" : [-0.238514],
+                    "c1" :  0.0,
+                    "c3" :  0.0,
+                    "c4" :  0.0
+                }
+            },
+            {
+                "label" : "pionless_LO",
+                "type"  : "lo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vpionlessLO"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5",
+                    "input_prefix" : "pionless_eft_HHE3max",
+                    "cD" : [0.00],
+                    "cE" : [-0.238514],
+                    "c1" :  0.0,
+                    "c3" :  0.0,
+                    "c4" :  0.0
+                }
+            },
+            {
+                "label" : "pionless_NLO",
+                "type"  : "lo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vpionlessNLO"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "pionless_eft_HHE3max",
+                    "cD" : [0.00],
+                    "cE" : [-0.213008],
+                    "c1" :  0.0,
+                    "c3" :  0.0,
+                    "c4" :  0.0
+                }
+            },
+            {
+                "label" : "inmed450",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary", 
+                    "input_prefix" : "vnnlosat"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_450",
+                    "cD" : [0.8168058],
+                    "cE" : [-0.0395747],
+                    "c1" : -1.121521199632590,
+                    "c3" : -3.925005856486820,
+                    "c4" :  3.765687158585920
+                }
+            },
+            {
+                "label" : "nnlo_delta394_100_of_500_sample0",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_100_of_500_sample0"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.455990 ],
+                    "cE" : [ 0.331846 ],
+                    "c1" :   -0.736674 ,
+                    "c3" :   -3.451226 ,
+                    "c4" :    2.416437
+                }
+            },
+            {
+                "label" : "nnlo_delta394_100_of_500_sample1",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_100_of_500_sample1"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -0.158902 ],
+                    "cE" : [ 0.391272 ],
+                    "c1" :   -0.736674 ,
+                    "c3" :   -3.451226 ,
+                    "c4" :    2.416437
+                }
+            },
+            {
+                "label" : "nnlo_delta394_100_of_500_sample2",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_100_of_500_sample2"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -0.083241 ],
+                    "cE" : [ 0.200226 ],
+                    "c1" :   -0.736674 ,
+                    "c3" :   -3.451226 ,
+                    "c4" :    2.416437
+                }
+            },
+            {
+                "label" : "nnlo_delta394_100_of_500_sample3",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_100_of_500_sample3"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -1.137630 ],
+                    "cE" : [ -0.108689 ],
+                    "c1" :   -0.736674 ,
+                    "c3" :   -3.451226 ,
+                    "c4" :    2.416437
+                }
+            },
+            {
+                "label" : "nnlo_delta394_100_of_500_sample4",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_100_of_500_sample4"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.275665 ],
+                    "cE" : [ -0.331637 ],
+                    "c1" :   -0.736674 ,
+                    "c3" :   -3.451226 ,
+                    "c4" :    2.416437
+                }
+            },
+            {
+                "label" : "nnlo_delta394_100_of_500_sample5",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_100_of_500_sample5"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.350724 ],
+                    "cE" : [ 0.033015 ],
+                    "c1" :   -0.736674 ,
+                    "c3" :   -3.451226 ,
+                    "c4" :    2.416437
+                }
+            },
+            {
+                "label" : "nnlo_delta394_100_of_500_sample6",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_100_of_500_sample6"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.139901 ],
+                    "cE" : [ -0.634792 ],
+                    "c1" :   -0.736674 ,
+                    "c3" :   -3.451226 ,
+                    "c4" :    2.416437
+                }
+            },
+            {
+                "label" : "nnlo_delta394_100_of_500_sample7",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_100_of_500_sample7"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -0.171085 ],
+                    "cE" : [ 0.546774 ],
+                    "c1" :   -0.736674 ,
+                    "c3" :   -3.451226 ,
+                    "c4" :    2.416437
+                }
+            },
+            {
+                "label" : "nnlo_delta394_100_of_500_sample8",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_100_of_500_sample8"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.455713 ],
+                    "cE" : [ 0.505114 ],
+                    "c1" :   -0.736674 ,
+                    "c3" :   -3.451226 ,
+                    "c4" :    2.416437
+                }
+            },
+            {
+                "label" : "nnlo_delta394_100_of_500_sample9",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_100_of_500_sample9"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -0.952258 ],
+                    "cE" : [ -0.147083 ],
+                    "c1" :   -0.736674 ,
+                    "c3" :   -3.451226 ,
+                    "c4" :    2.416437
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample0",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample0"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -0.588286 ],
+                    "cE" : [ -0.068944 ],
+                    "c1" :   -0.736674 ,
+                    "c3" :   -3.451226 ,
+                    "c4" :    2.416437
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample1",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample1"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -1.885741 ],
+                    "cE" : [ 0.078959 ],
+                    "c1" :   -0.747704 ,
+                    "c3" :   -3.569769 ,
+                    "c4" :    2.438768
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample2",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample2"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -0.619586 ],
+                    "cE" : [ 0.021581 ],
+                    "c1" :   -0.714632 ,
+                    "c3" :   -3.6732880000000003 ,
+                    "c4" :    2.5225540000000004
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample3",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample3"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 1.946797 ],
+                    "cE" : [ 0.221419 ],
+                    "c1" :   -0.720208 ,
+                    "c3" :   -3.58287 ,
+                    "c4" :    2.478533
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample4",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample4"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 1.46944 ],
+                    "cE" : [ 0.439727 ],
+                    "c1" :   -0.728551 ,
+                    "c3" :   -3.6303080000000003 ,
+                    "c4" :    2.415413
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample5",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample5"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 1.357475 ],
+                    "cE" : [ 0.522703 ],
+                    "c1" :   -0.750739 ,
+                    "c3" :   -3.8184810000000002 ,
+                    "c4" :    2.573621
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample6",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample6"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 1.07448 ],
+                    "cE" : [ 0.202184 ],
+                    "c1" :   -0.710998 ,
+                    "c3" :   -3.4836530000000003 ,
+                    "c4" :    2.3716470000000003
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample7",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample7"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -0.121797 ],
+                    "cE" : [ -0.029743 ],
+                    "c1" :   -0.717454 ,
+                    "c3" :   -3.440856 ,
+                    "c4" :    2.3868460000000002
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample8",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample8"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 1.758928 ],
+                    "cE" : [ 0.728768 ],
+                    "c1" :   -0.722094 ,
+                    "c3" :   -3.660583 ,
+                    "c4" :    2.474672
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample9",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample9"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -1.79721 ],
+                    "cE" : [ 0.038438 ],
+                    "c1" :   -0.736034 ,
+                    "c3" :   -3.9065790000000002 ,
+                    "c4" :    2.6282870000000003
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample10",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample10"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.534865 ],
+                    "cE" : [ 0.291467 ],
+                    "c1" :   -0.714313 ,
+                    "c3" :   -3.810193 ,
+                    "c4" :    2.589312
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample11",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample11"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.21088 ],
+                    "cE" : [ 0.438297 ],
+                    "c1" :   -0.747709 ,
+                    "c3" :   -3.8012180000000004 ,
+                    "c4" :    2.518294
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample12",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample12"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.493866 ],
+                    "cE" : [ 0.372671 ],
+                    "c1" :   -0.707744 ,
+                    "c3" :   -3.6786130000000004 ,
+                    "c4" :    2.484607
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample13",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample13"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 1.778847 ],
+                    "cE" : [ 0.239579 ],
+                    "c1" :   -0.72893 ,
+                    "c3" :   -3.350968 ,
+                    "c4" :    2.3592690000000003
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample14",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample14"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.886488 ],
+                    "cE" : [ 0.443938 ],
+                    "c1" :   -0.697465 ,
+                    "c3" :   -3.9962560000000003 ,
+                    "c4" :    2.68892
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample15",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample15"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 1.686661 ],
+                    "cE" : [ 0.41126 ],
+                    "c1" :   -0.7035 ,
+                    "c3" :   -3.625442 ,
+                    "c4" :    2.4485900000000003
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample16",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample16"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -1.079774 ],
+                    "cE" : [ -0.017463 ],
+                    "c1" :   -0.728681 ,
+                    "c3" :   -3.7625900000000003 ,
+                    "c4" :    2.504255
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample17",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample17"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.003787 ],
+                    "cE" : [ 0.1972 ],
+                    "c1" :   -0.733574 ,
+                    "c3" :   -3.570751 ,
+                    "c4" :    2.360681
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample18",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample18"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 1.970978 ],
+                    "cE" : [ 0.39842 ],
+                    "c1" :   -0.753724 ,
+                    "c3" :   -3.4989420000000004 ,
+                    "c4" :    2.4008920000000002
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample19",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample19"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.086324 ],
+                    "cE" : [ 0.045585 ],
+                    "c1" :   -0.74496 ,
+                    "c3" :   -3.991937 ,
+                    "c4" :    2.714987
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample20",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample20"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -0.08874 ],
+                    "cE" : [ 0.07701 ],
+                    "c1" :   -0.737184 ,
+                    "c3" :   -3.3376430000000004 ,
+                    "c4" :    2.31825
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample21",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample21"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -1.893225 ],
+                    "cE" : [ -0.451457 ],
+                    "c1" :   -0.742109 ,
+                    "c3" :   -3.5012860000000003 ,
+                    "c4" :    2.4161
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample22",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample22"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 1.872068 ],
+                    "cE" : [ 0.220464 ],
+                    "c1" :   -0.731589 ,
+                    "c3" :   -3.45454 ,
+                    "c4" :    2.351817
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample23",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample23"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.695247 ],
+                    "cE" : [ 0.311592 ],
+                    "c1" :   -0.755715 ,
+                    "c3" :   -3.7326610000000002 ,
+                    "c4" :    2.469321
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample24",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample24"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 1.925486 ],
+                    "cE" : [ 0.32478 ],
+                    "c1" :   -0.756264 ,
+                    "c3" :   -3.666137 ,
+                    "c4" :    2.4881
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample25",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample25"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -0.205048 ],
+                    "cE" : [ 0.196445 ],
+                    "c1" :   -0.757508 ,
+                    "c3" :   -3.784141 ,
+                    "c4" :    2.4823720000000002
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample26",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample26"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.319294 ],
+                    "cE" : [ 0.022955 ],
+                    "c1" :   -0.733158 ,
+                    "c3" :   -3.4805260000000002 ,
+                    "c4" :    2.438096
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample27",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample27"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.951929 ],
+                    "cE" : [ 0.407514 ],
+                    "c1" :   -0.702385 ,
+                    "c3" :   -3.814808 ,
+                    "c4" :    2.5589000000000004
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample28",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample28"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -0.478375 ],
+                    "cE" : [ -0.361659 ],
+                    "c1" :   -0.738377 ,
+                    "c3" :   -3.8286740000000004 ,
+                    "c4" :    2.551932
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample29",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample29"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.968059 ],
+                    "cE" : [ 0.308629 ],
+                    "c1" :   -0.72653 ,
+                    "c3" :   -4.004467 ,
+                    "c4" :    2.640497
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample30",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample30"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -0.33549 ],
+                    "cE" : [ 0.10032 ],
+                    "c1" :   -0.73351 ,
+                    "c3" :   -3.5737870000000003 ,
+                    "c4" :    2.465605
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample31",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample31"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.400155 ],
+                    "cE" : [ 0.11599 ],
+                    "c1" :   -0.760159 ,
+                    "c3" :   -3.552801 ,
+                    "c4" :    2.3931620000000002
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample32",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample32"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ -1.047254 ],
+                    "cE" : [ -0.202748 ],
+                    "c1" :   -0.729377 ,
+                    "c3" :   -3.746338 ,
+                    "c4" :    2.545986
+                }
+            },
+            {
+                "label" : "nnlo_delta394_HM_sample33",
+                "type"  : "nnlo",
+                "twobody" : {
+                    "format" : "binary",
+                    "input_prefix" : "vnnlo394_delta_HM34_sample33"
+                },
+                "threebody" : {
+                    "include" : true,
+                    "topology" : "triangular",
+                    "format" : "hdf5_split",
+                    "input_prefix" : "3NF_NEW_LOOKUP_N2LO_394",
+                    "cD" : [ 0.256891 ],
+                    "cE" : [ 0.155498 ],
+                    "c1" :   -0.722622 ,
+                    "c3" :   -3.847801 ,
+                    "c4" :    2.529002
+                }
+            }	    
+        ],
+        "modelspace" : [
+            {
+                "label" : "Medium",
+                "nmax"  : [8],
+                "hw"    : [16],
+                "n3max" : [16],
+                "nat_nmax" : [10]
+            }]
+    }
+}
